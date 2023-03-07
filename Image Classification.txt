@@ -1,0 +1,29 @@
+import tensorflow as tf #Free and open source ML & AI Library used for variety of applications
+from tensorflow.keras import datasets, layers, models
+import numpy as np #Numerical Python library used for working with arrays
+import matplotlib.pyplot as plt
+
+(X_train,y_train),(X_test, y_test)=datasets.cifar10.load_data()
+
+X_test.shape
+
+X_train.shape
+
+y_train.shape
+
+y_train[:5]#2D Array
+
+#Converting 2D arrany to 1D Array
+y_train=y_train.reshape(-1,)
+
+y_train[:5]
+
+y_test=y_test.reshape(-1,)
+
+
+
+
+
+
+
+
